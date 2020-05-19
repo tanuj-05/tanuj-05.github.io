@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,500;1,400;1,500&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+}
+
+
+body {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+#name {
+    font-family: 'Alegreya',serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li{
+    display: inline;
+}
+
+.tech {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+ ul {
+
+     display: flex;
+     justify-content: flex-start;
+     padding-left: 0;
+ }
+
+ li{
+     margin-left: 20px;
+ }
+
+ .first-list-item {
+     margin-left: 2pxpx;
+ }
+
+ .job_profile {
+     font-style: italic;
+     margin: 3px;
+ }
+
+ .job_description  {
+     display: flex;
+     flex-direction: column;
+     list-style: disc;
+     text-align: justify;
+ }
+#work_experience ul {
+    list-style-type: disc;
+}
+ .job_description li {
+     display: list-item;
+ }
+
+
+ .company_name {
+     margin-left: 3px;
+ }
+
+ .job_dates{
+     padding: 5px;
+     text-align: center;
+ }
+
+ .section_title {
+     margin-bottom: 10px;
+     font-family: 'Alegreya', serif;
+     font-style: italic;
+ }
+
+ #tools_list {
+     display: flex;
+     flex-wrap: wrap;
+     flex-grow: 25;
+ }
+
+
+ .institute_info {
+     padding: 5px;
+ }
+
+ .marks{
+     text-align: center;
+     padding: 0;
+ }
+
+ .project_name {
+    margin-left: 3px;
+    margin-bottom: 3px;
+ }
+
+ .job_description li{
+     margin-bottom: 3px;
+ }
+
+
+ #achievements li{
+     display: list-item;
+     margin-bottom: 5px;
+ }
+
+ #achievements ul{
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ #extra_curriculars li {
+     display: list-item;
+     margin-bottom: 5px;
+ }
+
+ #extra_curriculars ul {
+     display: flex;
+     flex-direction: column;
+ }
+ /* .table_cell{
+     padding-right: 5px;
+ } */
+
+ /* .table_list_items{
+     text-align: justify;
+ } */
+ /* .tech_categories{
+     flex-grow: 1;
+ } */
+
+ @media screen and (max-width:500px){
+    .tech {
+        flex-direction: column;
+    }
+    .tech ul {
+        margin-top: 5px;
+    }
+    #tools_list li{
+        display: list-item;
+    }
+}
+
+td{
+    padding-right: 5px;
+}
